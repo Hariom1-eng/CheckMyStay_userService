@@ -1,0 +1,46 @@
+                 
+#        THis is the way through  whiucch  we can  add the  configuartions  from the github to our microservices but the github configuration is not accepted  by the  eureka server              
+
+
+
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/microservices
+#    username: root
+#    password: Hariom@1234
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQLDialect
+#
+#    hibernate:
+#      ddl-auto: update
+#
+#    show-sql: true
+#
+#  config:
+#    import: configserver:http://localhost:8086	
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
+#        orm:
+#          jdbc:
+#            bind: TRACE
+#
+##eureka:
+##  instance:
+##    prefer-ip-address: true
+##
+##  client:
+##    fetch-registry: true
+##    register-with-eureka: true
+##
+##    service-url:
+##      defaultZone: http://localhost:8084/eureka/
+#
+#server:
+#  port: 8081
